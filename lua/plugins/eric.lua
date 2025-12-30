@@ -46,4 +46,27 @@ return {
       },
     },
   },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      debug = {
+        convert = true,
+      },
+      convert = {
+        notify = true,
+      },
+      formats = {
+        "png",
+        "jpg",
+        "pdf",
+      },
+      image = {
+        enabled = true,
+        doc = {
+          inline = true,
+          float = true,
+        },
+      },
+    },
+  },
 }
